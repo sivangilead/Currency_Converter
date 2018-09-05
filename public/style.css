@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+}
+
+.conversion {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 11vw;
+}
+
+.clickButton {
+    padding-left: 46px;
+}
+
+.conversion button {
+    height: 38px;
+}
+
+.chooseform {
+    width: 300px;
+    height: 30px;
+}
+
+.chooseform1 {
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 9vw;
+}
+
+label {
+    height: 38px;
+}
+
+.label1 {
+    height: 38px;
+}
+
+.form {
+    position: relative;
+}
+
+.inputform {
+    margin: 10% 0 0 11vw;
+    width: 300px;
+    height: 38px;
+}
+
+.submitButton {
+    margin: 3vw 0 0 36.5vw;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.border {
+    width: 80vw;
+    height: 450px;
+    margin: 20vh auto;
+}
+
+@media only screen and (max-width: 1012px) {
+    .chooseform {
+        /* width: 400px; */
+    }
+    .custom-select {
+        position: block;
+        height: 35px;
+        font-size: 12px;
+    }
+    .input-group-text {
+        height: 35px;
+        font-size: 12px;
+    }
+    .conversion {
+        margin-left: 4vw;
+        margin-right: -6vw;
+    }
+    .conversion button {
+        height: 33px;
+        width: 38px;
+        padding: 5px
+    }
+    .clickButton {
+        padding-left: 0;
+    }
+    .clickButton, .chooseform, .chooseform1 {
+        margin-left: 2vw;
+    }
+    .form-control {
+        height: 35px;
+    }
+    .inputform {
+        margin: 10% 0 0 6vw;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .conversion {
+        display: block;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .inputform {
+        margin: 10% 0 0 2vw;
+    }
+    .conversion {
+        margin-left: 0vw;
+    }
+    .clickButton {
+        padding: 0 0 20px 126px;
+        margin-top: 17px;
+    }
+    .submitButton {
+        margin-left: 27vw;
+    }
+    .chooseform {
+        margin-top: 55px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .border {
+        height: 551px;
+        margin-top: 30vh;
+    }
+}
