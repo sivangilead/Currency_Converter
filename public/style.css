@@ -58,13 +58,11 @@ h5 {
 .border {
     width: 80vw;
     height: 450px;
-    margin: 20vh auto;
+    margin: 17vh auto;
+    box-shadow: 0px 4px 18px 5px #444;
 }
 
 @media only screen and (max-width: 1012px) {
-    .chooseform {
-        /* width: 400px; */
-    }
     .custom-select {
         position: block;
         height: 35px;
@@ -119,12 +117,5 @@ h5 {
     }
     .chooseform {
         margin-top: 55px;
-    }
-}
-
-@media only screen and (max-width: 1030px) {
-    .border {
-        height: 551px;
-        margin-top: 30vh;
     }
 }

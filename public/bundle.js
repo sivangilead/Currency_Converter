@@ -30178,7 +30178,7 @@ function (_Component) {
         className: "btn btn-secondary",
         onClick: this.handleClick
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
-        class: "fas fa-exchange-alt"
+        className: "fas fa-exchange-alt"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "input-group mb-3 chooseform1"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -30203,7 +30203,7 @@ function (_Component) {
         type: "submit",
         className: "btn btn-primary submitButton",
         disabled: this.state.toCurrency === '' || this.state.fromCurrency === '' || this.state.toCurrency === this.state.fromCurrency || this.state.quantity === 0
-      }, "Convert")), this.state.result !== 0 && !this.state.onClickPressed ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", null, this.state.quantity, " ", this.state.fromCurrency, "=", this.state.result.toFixed(4), " ", this.state.toCurrency) : null);
+      }, "Convert")), this.state.result !== 0 && !this.state.onClickPressed ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", null, this.state.quantity, " ", this.state.fromCurrency, " = ", this.state.result.toFixed(4), " ", this.state.toCurrency) : null);
     }
   }]);
 

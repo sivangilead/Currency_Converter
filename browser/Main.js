@@ -71,7 +71,7 @@ class Main extends Component {
                             </select>
                         </div>
                         <div className="clickButton">
-                            <button type="button" className="btn btn-secondary" onClick={this.handleClick}><i class="fas fa-exchange-alt"></i></button>
+                            <button type="button" className="btn btn-secondary" onClick={this.handleClick}><i className="fas fa-exchange-alt"></i></button>
                         </div>
                         <div className="input-group mb-3 chooseform1">
                             <div className="input-group-prepend">
@@ -90,7 +90,7 @@ class Main extends Component {
                 </form>
                 {
                     (this.state.result !== 0 && !this.state.onClickPressed)
-                        ? <h5>{this.state.quantity} {this.state.fromCurrency}={this.state.result.toFixed(4)} {this.state.toCurrency}</h5>
+                        ? <h5>{this.state.quantity} {this.state.fromCurrency} = {this.state.result.toFixed(4)} {this.state.toCurrency}</h5>
                         : null
                 }
             </div >
